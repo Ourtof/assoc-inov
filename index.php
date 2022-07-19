@@ -23,8 +23,8 @@ include_once("include/scripts/footer.php");
     ?>
 
     <main>
-    <div class=container>
-        <div id=title_home>
+    <div class="container">
+        <div id="title_home">
             <p>Page d'accueil</p>
         </div>
     </div>

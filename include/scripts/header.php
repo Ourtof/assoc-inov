@@ -15,8 +15,8 @@ return "<header>
                     <li><a href=\"adherents.php\">Adhérents</a></li>
                     <li><a href=\"activites.php\">Activités</a></li>
                     <li><a href=\"animateurs.php\">Animateurs</a></li>
-                    <li><a href=\"actualite.php\">Actualités</li>
-                    <li><a href=\"contact.php\">Contact</li>
+                    <li><a href=\"actualite.php\">Actualités</a></li>
+                    <li><a href=\"contact.php\">Contact</a></li>
                 </ul>
             </nav>
         </header>";

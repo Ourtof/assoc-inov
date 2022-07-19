@@ -5,6 +5,18 @@
     box-sizing: border-box;
 }
 
+a {
+    text-decoration: none;
+}
+
+li:hover a {
+    color: white;
+}
+
+a:visited {
+    color: black;
+}
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -47,6 +59,7 @@ li {
     background-color: lightgrey;
     margin: 0 0.1%;
     text-align: center;
+    color: black;
 }
 
 li:hover {
