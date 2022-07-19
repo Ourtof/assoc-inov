@@ -11,11 +11,12 @@ return "<header>
             
             <nav>
                 <ul>
-                    <li>Accueil</li>
-                    <li>Adhérents</li>
-                    <li>Activités</li>
-                    <li>Animateurs</li>
-                    <li>Actualités</li>
+                    <li><a href=\"index.php\">Accueil</a></li>
+                    <li><a href=\"adherents.php\">Adhérents</a></li>
+                    <li><a href=\"activites.php\">Activités</a></li>
+                    <li><a href=\"animateurs.php\">Animateurs</a></li>
+                    <li><a href=\"actualite.php\">Actualités</li>
+                    <li><a href=\"contact.php\">Contact</li>
                 </ul>
             </nav>
         </header>";
