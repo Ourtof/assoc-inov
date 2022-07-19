@@ -19,7 +19,7 @@ include_once("include/scripts/footer.php");
 <body>
 
     <?php
-    print(entete());
+        print(entete());
     ?>
 
     <main>
@@ -30,7 +30,7 @@ include_once("include/scripts/footer.php");
     </div>
     </main>
     <?php
-    print(footer());
+        print(footer());
     ?>
 
 </body>

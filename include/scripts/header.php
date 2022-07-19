@@ -2,9 +2,8 @@
 function entete() {
 
 return "<header>
-            <div class=logo>
-            </div>
-            <div id=bandeau>
+            <div id=\"bandeau\">
+                <div class=\"logo\"></div>
                 <h1>ASSOC'INOV</h1>
                 <h3>L'association où il fait bon vivre</h3>
             </div>
