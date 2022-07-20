@@ -13,16 +13,11 @@
     <link rel="stylesheet" href="include/css/styles.css">
 </head>
 
-<?php
-include_once("include/scripts/header.php");
-include_once("include/scripts/footer.php");
-?>
-
 <body>
 
     <?php
-    print(entete());
-    print(footer());
+   include_once("include/scripts/header.php");
+   include_once("include/scripts/footer.php");
     ?>
 
 </body>

@@ -12,14 +12,11 @@
     <title>assoc'inov</title>
     <link rel="stylesheet" href="include/css/styles.css">
 </head>
-<?php 
-include_once("include/scripts/header.php");
-include_once("include/scripts/footer.php");
-?>
+
 <body>
 
     <?php
-        print(entete());
+        include_once("include/scripts/header.php");
     ?>
 
     <main>
@@ -30,7 +27,7 @@ include_once("include/scripts/footer.php");
     </div>
     </main>
     <?php
-        print(footer());
+        include_once("include/scripts/footer.php");
     ?>
 
 </body>
