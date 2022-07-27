@@ -17,6 +17,30 @@
 
     <?php
     include_once("include/scripts/header.php");
+    ?>
+
+    <!-- <div class="card">
+        <div class="img">
+            insérer image ici
+        </div>
+        <p class="name">name</p>
+        <p class="card_text">lorem ipsum</p>
+    </div> -->
+
+    <?php
+
+//     $administratif = ['Responsable administratif' => 
+//         ['nom' =>'pierre', 'prénom' => 'jean', 'téléphone' => '06 06 06 06 06', 'email' => 'jean.pierre'],
+//         // ['prénom' =>'skkjs']
+// ];
+
+//         // 'téléphone', 'email'
+
+
+//     print('<pre>');
+//     print_r($administratif);
+//     print('</pre>');
+
     include_once("include/scripts/footer.php");
     ?>
 

@@ -50,13 +50,34 @@ nav, main, footer {
     border-radius: 3px;
 }
 
-ul {
+nav ul {
     height: 100%;
     display: flex;
     margin-left: 2%;
 }
 
-li {
+.ul_adh {               /*ul page adherent */
+    margin-left: 2%;
+}
+
+/* Carte page adhérents */
+
+.card {
+    padding: 100px 50px;
+
+}
+
+.name {
+    border-bottom: solid 1px black;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.card_text {
+    text-align: center;
+}
+
+nav li {
     list-style: none;
     width: 6%;
     background-color: lightgrey;
@@ -67,7 +88,7 @@ li {
     padding: 20px;
 }
 
-li:hover {
+nav li:hover {
     background-color: black;
     color: white;
 }

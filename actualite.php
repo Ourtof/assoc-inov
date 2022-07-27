@@ -20,7 +20,6 @@
 
    $mois = array(1 => 'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septebre', 'Octobre', 'Novembre', 'Décembre');
    $saison = array('été', 'hiver', 'automne', 'printemps');
-
    $num_mois = date('12');
 
    switch($num_mois){

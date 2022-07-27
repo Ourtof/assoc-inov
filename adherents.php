@@ -17,7 +17,33 @@
 
     <?php
     include_once("include/scripts/header.php");
+    
+    $annee_bis = array();
+    $x = 1900;
+    
+    while($x <= 2100) {
+        if($x % 4 == 0){
+            if($x % 100 > 0){
+                array_push($annee_bis, $x);
+            }else if($x % 400 == 0){
+                array_push($annee_bis, $x);
+            }
+           }
+        $x++;
+    }
+    // print('<pre>');s
+    // print_r($annee_bis);
+    // print('</pre>');
 
+    $annee = 0;
+
+    print('<ul class="ul_adh">');
+    do{
+        print('<li>'.$annee_bis[$annee].'</li>');
+        $annee++;
+    }while(intval(date('Y'))+10 >= $annee_bis[$annee]);
+    print('</ul>');
+    
     include_once("include/scripts/footer.php");
     ?>
 
