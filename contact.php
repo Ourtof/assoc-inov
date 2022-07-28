@@ -17,30 +17,27 @@
 
     <?php
     include_once("include/scripts/header.php");
-    ?>
 
-    <!-- <div class="card">
-        <div class="img">
-            insérer image ici
-        </div>
-        <p class="name">name</p>
-        <p class="card_text">lorem ipsum</p>
-    </div> -->
+    $admin = ['Responsable administratif' => 
+        ['nom' => 'Pierre', 'prénom' => 'Jean', 'téléphone' => '06 06 06 06 06', 'email' => 'jean.pierre@gmail.com'],
+        'Responsable RH' => 
+        ['nom' => 'Marrant', 'prénom' => 'Damien', 'téléphone' => '07 07 07 07 07', 'email' => 'damien.marrant@gmail.com']
+    ];
+    ?>
+    <div class="flex">
+
 
     <?php
 
-//     $administratif = ['Responsable administratif' => 
-//         ['nom' =>'pierre', 'prénom' => 'jean', 'téléphone' => '06 06 06 06 06', 'email' => 'jean.pierre'],
-//         // ['prénom' =>'skkjs']
-// ];
+        foreach($admin as $indice => $personne) {
+        include("include/scripts/card.php");
+        };
+        
+        ?>
+        </div>
 
-//         // 'téléphone', 'email'
 
-
-//     print('<pre>');
-//     print_r($administratif);
-//     print('</pre>');
-
+    <?php
     include_once("include/scripts/footer.php");
     ?>
 

@@ -17,6 +17,8 @@ a:visited {
     color: black;
 }
 
+/* DEBUT INCLUDE HEADER */
+
 header {
     display: flex;
     flex-direction: column;
@@ -56,27 +58,6 @@ nav ul {
     margin-left: 2%;
 }
 
-.ul_adh {               /*ul page adherent */
-    margin-left: 2%;
-}
-
-/* Carte page adhérents */
-
-.card {
-    padding: 100px 50px;
-
-}
-
-.name {
-    border-bottom: solid 1px black;
-    font-weight: bolder;
-    text-align: center;
-}
-
-.card_text {
-    text-align: center;
-}
-
 nav li {
     list-style: none;
     width: 6%;
@@ -85,7 +66,7 @@ nav li {
     text-align: center;
     color: black;
     font-size: 17px;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 nav li:hover {
@@ -108,6 +89,10 @@ nav li:hover {
     margin: 1% 0;
 }
 
+/* FIN INCLUDE HEADER */
+
+/* DEBUT INCLUDE FOOTER */
+
 footer {
     border: solid 1px black;
     height: 80px;
@@ -119,3 +104,45 @@ footer {
 footer p {
     margin: 1%;
 }
+
+/* FIN INCLUDE FOOTER */
+
+/* DEBUT INCLUDE ADHERENTS */
+
+.ul_adh {               /*ul page adherent */
+    margin-left: 2%;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    height: 200px;
+    width: 150px;
+    border: solid 1px black;
+    text-align: center;
+    margin: 5%;
+    border-radius: 10px;
+}
+
+.image {
+    border-radius: 50%;
+    width: 50%;
+    margin: 20px auto;
+}
+
+.rens_name {
+    border-bottom: solid 1px grey;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: bolder;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+/* FIN INCLUDE ADHERENTS */
