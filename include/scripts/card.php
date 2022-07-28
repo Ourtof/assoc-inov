@@ -5,4 +5,4 @@
         <p class="rens_name"><?= $personne['prénom']; ?></p>
         <p class="card_text">lorem ipsum</p>
         <p class="rens_tel"><?= $personne['téléphone']; ?></p>
-    </div>
+    </div> 
