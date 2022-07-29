@@ -107,7 +107,7 @@ footer p {
 
 /* FIN INCLUDE FOOTER */
 
-/* DEBUT INCLUDE ADHERENTS */
+/* DEBUT INCLUDE CARD */
 
 .ul_adh {               /*ul page adherent */
     margin-left: 2%;
@@ -122,6 +122,7 @@ footer p {
     height: 200px;
     width: 150px;
     border: solid 1px black;
+    background-color: lightgrey;
     text-align: center;
     margin: 5%;
     border-radius: 10px;
@@ -145,4 +146,4 @@ img {
     border-radius: 50%;
 }
 
-/* FIN INCLUDE ADHERENTS */
+/* FIN INCLUDE CARD */
