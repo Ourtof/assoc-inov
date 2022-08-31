@@ -14,6 +14,18 @@
 </head>
 
 <body>
+    <?php 
+
+    function geneTitre($titre) {
+        
+       ?> <h4><?= $titre ?></h4> <?php
+       return;
+    };
+
+    
+    $titre = "Page d'accueil";
+    
+    ?>
 
     <?php
         include_once("include/scripts/header.php");
@@ -22,7 +34,7 @@
     <main>
     <div class="container">
         <div id="title_home">
-            <p>Page d'accueil</p>
+            <?= geneTitre($titre); ?>
         </div>
     </div>
     </main>
