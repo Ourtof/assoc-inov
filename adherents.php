@@ -27,13 +27,10 @@
                 array_push($annee_bis, $x);
             }else if($x % 400 == 0){
                 array_push($annee_bis, $x);
-            }
-           }
+            };
+           };
         $x++;
-    }
-    // print('<pre>');s
-    // print_r($annee_bis);
-    // print('</pre>');
+    };
 
     $annee = 0;
 
