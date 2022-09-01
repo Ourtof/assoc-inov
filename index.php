@@ -15,27 +15,21 @@
 
 <body>
     <?php 
-
-    function geneTitre($titre) {
-        
-       ?>
-       <h4><?= $titre ?></h4>
-       <?php
-       return;
-    };
-
     $titre = "Page d'accueil";
-    $menu = ['Accueil' => ['libelle' => 'Accueil', 'href' => 'index.php'], 
-            'Adhérents' => ['lebelle' => 'Adhérents', 'href' => 'adherents.php'],
-            'Activités' => ['libelle' => 'Activités', 'href' => 'activites.php'],
-            'Animateurs' => ['libelle' => 'Animateurs', 'href' => 'animateurs.php'],
-            'Acutalités' => ['libelle' => 'Actualités', 'href' => 'actualite.php'],
-            'Contact' => ['libelle' => 'Contact', 'href' => 'contact.php']];
+
     
+function geneTitre($titre = 'sans') {
+    if($titre === 'sans') {
+        $titre = basename(__FILE__, '.php');
+    } 
+   return $titre;
+}
+
     ?>
 
     <?php
-        include_once("include/scripts/header.php");
+        include_once("include/scripts/functions.php");
+        include_once("include/scripts/header.php"); 
     ?>
 
     <main>

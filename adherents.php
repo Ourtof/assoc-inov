@@ -16,8 +16,9 @@
 <body>
 
     <?php
+    include_once("include/scripts/functions.php");
     include_once("include/scripts/header.php");
-    
+
     $annee_bis = array();
     $x = 1900;
     

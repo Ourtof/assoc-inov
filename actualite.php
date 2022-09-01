@@ -16,6 +16,7 @@
 <body>
 
     <?php
+    include_once('include/scripts/functions.php');
    include_once('include/scripts/header.php');
 
    $mois = array(1 => 'Janvier', 'Février', 'Mars', 'Avril', 'Mai', 'Juin', 'Juillet', 'Août', 'Septebre', 'Octobre', 'Novembre', 'Décembre');

@@ -16,7 +16,26 @@
 <body>
 
     <?php
-    include_once("include/scripts/header.php");
+    include_once("include/scripts/functions.php");
+    include_once("include/scripts/header.php"); 
+
+    
+    function geneTitre($titre = 'sans') {
+        if($titre === 'sans') {
+            $titre = basename(__FILE__, '.php');
+        } 
+    return $titre;
+    }
+
+    ?>
+    <main>
+    <div class="container">
+        <div id="title_home">
+            <?= geneTitre(); ?>
+        </div>
+    </div>
+    </main>
+    <?php
     include_once("include/scripts/footer.php");
     ?>
 

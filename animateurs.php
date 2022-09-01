@@ -16,6 +16,7 @@
 <body>
 
     <?php
+    include_once("include/scripts/functions.php");
     include_once("include/scripts/header.php");
     include_once("include/scripts/footer.php");
     ?>
