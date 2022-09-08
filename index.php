@@ -28,7 +28,7 @@ function geneTitre($titre = 'sans') {
     ?>
 
     <?php
-        include_once("include/scripts/functions.php");
+        include("include/scripts/functions.php");
         include_once("include/scripts/header.php"); 
     ?>
 
@@ -40,7 +40,7 @@ function geneTitre($titre = 'sans') {
     </div>
     </main>
     <?php
-        include_once("include/scripts/footer.php");
+        require("include/scripts/footer.php");
     ?>
 
 </body>
